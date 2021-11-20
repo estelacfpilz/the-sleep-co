@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/* -- Temporary styles for structural HTML */
-section{
-    border: 1px solid lightblue;
-}
-
 
 /* ------------- Utility Classes ------------- */
 
