@@ -9,6 +9,9 @@
     <!-- This is gridlex -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <!-- This is Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Work+Sans:ital,wght@0,200;0,400;0,800;1,200;1,400;1,800&display=swap" rel="stylesheet">
 
     <!-- This is the FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,35 +23,31 @@
 <!-- This is the body (content-->
 <body>
     <!------------ Header --------------->
-    <header class="padded-lg grid">
+    <header class="padded-lg grid text-center tall-100">
         <div class="col-12-middle">
-            <h3>sleep like a baby</h3>
-        <h1>the ultimate mattress solution</h1>
+            <h3 class=""> <span class="featured-text">sleep</span> like a baby</h3>
+            <h1 class="font-weight-normal">the ultimate mattress solution</h1>
         </div>
     </header>
 
     <!---------- Gallery ------------->
     <section class="grid">
-        <div class="padded-md col-6">
-            <h2>built to last a lifetime</h2>
+        <div class="padded-md col-6-middle">
+            <h2>built to last a <span class="featured-text">lifetime</span></h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos enim corporis natus eum reprehenderit qui, fugiat similique in aperiam, voluptatum id quasi iusto blanditiis obcaecati. Velit error soluta eum eaque.</p>
         </div>
-        <div class="bg-image col-6">
-            <!-- background image bed -->
-        </div>
-        <div class="bg-image col-6">
-            <!-- background image pug -->
-        </div>
-        <div class="padded-md col-6">
-            <h2>built to last a lifetime</h2>
+        <div class="bg-image bg-bed col-6 tall-50"></div>
+        <div class="bg-image bg-pug col-6 tall-50"></div>
+        <div class="padded-md col-6-middle">
+            <h2>so <span class="featured-text">soft</span> you'll melt</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos enim corporis natus eum reprehenderit qui, fugiat similique in aperiam, voluptatum id quasi iusto blanditiis obcaecati. Velit error soluta eum eaque.</p>
         </div>
     </section>
 
     <!----------- Features icon grid ----------->
-    <section class="padded-md grid">
-        <div class="col-12">
-            <h2>features you will love</h2>
+    <section class="padded-md bg-dark grid">
+        <div class="col-12 text-center">
+            <h2> <span class="featured-text">features</span> you will love</h2>
         </div>
         <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i>
@@ -69,34 +68,38 @@
     </section>
 
     <!----------- Banner ----------->
-    <section class="padded-md">
-        <h3>never undersestimate the power of a good night sleep</h3>
+    <section class="padded-md bg-pillow text-center tall-70 grid">
+        <div class="col-12-middle"> 
+            <h3><span class="sm-text font-weight-normal">never undersestimate the power of</span>
+            <br><span class="lg-text">a good night <span class="white-text">sleep</span></span></h3>
+        </div>
     </section>
 
     <!----------- Testimonial ----------->
-    <section class="padded-md grid">
-        <div class="col-1">
-            <span>"</span>
+    <section class="padded-lg grid">
+        <div class="col-1 text-right quote-icon">
+            <span>“</span>
         </div>
-        <div class="col-10">
-            <p>I've never experienced sleep like this!</p>
-            <p> – a very happy customer</p>
+        <div class="col-10 text-center md-text font-weight-light">
+            <p>I've never experienced sleep like this! OMG I really love this mattress I want to buy one for every member of my family</p>
+            <p class="subtitle"> – a very happy customer</p>
         </div>
-        <div class="col-1">
-            <span>"</span>
+        <div class="col-1 text-left quote-icon">
+            <span>”</span>
         </div> 
     </section>
 
     <!----------- Testimonial ----------->
     <footer class="padded-md bg-dark grid-spaceBetween">
-        <div class="col-4">
-            <h2>Let's Connet</h2>
+        <div class="col-4-bottom">
+            <h2 class="lg-text">let's <span class="featured-text">connect</span></h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore inventore accusamus, fuga veritatis expedita iusto eum error ad perspiciatis ullam praesentium hic, et consequatur non rerum eligendi minima ut dolores.</p>
         </div>
-        <div class="col-6">
-            <p>Call:</p>
-            <p>Email:</p>
-            <p>Address:</p>
+        <div class="col-5-bottom">
+            <p><strong>Call:</strong> <a href="#">04555 5555</a></p>
+            <p><strong>Email:</strong> <a href="#">hello@thesleep.co</a></p>
+            <p><strong>Store:</strong> <a href="#"> 45 Main St, San Francisco, 13001</a></p>
+            <p><strong>Instagram:</strong> <a href="#">@thesleep.co</a></p>
 
         </div>
     </footer>
