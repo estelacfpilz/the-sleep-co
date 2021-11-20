@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+/* -- Temporary styles for structural HTML */
+* {
+    padding: 0.5rem;
+    border: 1px solid lightblue;
+}
+
+html, body { border: none; }
+
+/* ------------- Utility Classes ------------- */
+
+/* Padding */
+.padded-sm { padding: 2.5%; }
+.padded-md { padding: 5%;   }
+.padded-lg { padding: 10%;  }
+
+.padded-05 { padding: 0.5rem; }
+.padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem; }
+
+.padded-t { padding-top: 5%; }
+.padded-b { padding-bottom: 5%; }
+.padded-l { padding-left: 5%; }
+.padded-r { padding-right: 5%; }
+
+.padded-tb { padding-top: 5%; padding-bottom: 5%; }
+.padded-lr { padding-left: 5%; padding-right: 5%; }
+
+/* Background */
+.bg-dark { 
+    background-color: #192b37;
+    color: white;
+}
+
+/* -- Image styles -- */
+.bg-image {
+    background-color: #192b37;
+    min-height: 10vh;
 }
